@@ -1,0 +1,77 @@
+@font-face {
+    font-family: "SpartanMB";
+    src: url('SpartanMB-Bold.eot');
+    src: url('SpartanMB-Bold.eot?#iefix') format('embedded-opentype'),
+        url('SpartanMB-Bold.woff2') format('woff2'),
+        url('SpartanMB-Bold.woff') format('woff'),
+        url('SpartanMB-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SpartanMB";
+    src: url('SpartanMB-Black.eot');
+    src: url('SpartanMB-Black.eot?#iefix') format('embedded-opentype'),
+        url('SpartanMB-Black.woff2') format('woff2'),
+        url('SpartanMB-Black.woff') format('woff'),
+        url('SpartanMB-Black.ttf') format('truetype');
+    font-weight: 900;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SpartanMB";
+    src: url('SpartanMB-Thin.eot');
+    src: url('SpartanMB-Thin.eot?#iefix') format('embedded-opentype'),
+        url('SpartanMB-Thin.woff2') format('woff2'),
+        url('SpartanMB-Thin.woff') format('woff'),
+        url('SpartanMB-Thin.ttf') format('truetype');
+    font-weight: 100;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SpartanMB";
+    src: url('SpartanMB-Light.eot');
+    src: url('SpartanMB-Light.eot?#iefix') format('embedded-opentype'),
+        url('SpartanMB-Light.woff2') format('woff2'),
+        url('SpartanMB-Light.woff') format('woff'),
+        url('SpartanMB-Light.ttf') format('truetype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SpartanMB";
+    src: url('SpartanMB-SemiBold.eot');
+    src: url('SpartanMB-SemiBold.eot?#iefix') format('embedded-opentype'),
+        url('SpartanMB-SemiBold.woff2') format('woff2'),
+        url('SpartanMB-SemiBold.woff') format('woff'),
+        url('SpartanMB-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SpartanMB";
+    src: url('SpartanMB-Regular.eot');
+    src: url('SpartanMB-Regular.eot?#iefix') format('embedded-opentype'),
+        url('SpartanMB-Regular.woff2') format('woff2'),
+        url('SpartanMB-Regular.woff') format('woff'),
+        url('SpartanMB-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "SpartanMB";
+    src: url('SpartanMB-ExtraBold.eot');
+    src: url('SpartanMB-ExtraBold.eot?#iefix') format('embedded-opentype'),
+        url('SpartanMB-ExtraBold.woff2') format('woff2'),
+        url('SpartanMB-ExtraBold.woff') format('woff'),
+        url('SpartanMB-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-style: normal;
+}
+

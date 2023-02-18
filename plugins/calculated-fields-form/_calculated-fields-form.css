@@ -1,0 +1,206 @@
+/* Calculated Fields Form styles
+----------------------------------------------------------------- */
+form[id^="cp_calculatedfieldsf"] input[type="radio"],
+form[id^="cp_calculatedfieldsf"] input[type="checkbox"] {
+  display: inline; }
+
+.cff-dropdown-field .dfield select {
+  visibility: visible; }
+
+.cp_cff_professional #fbuilder .select_container {
+  width: 50%; }
+
+.cp_cff_professional #fbuilder .select_container select {
+  width: 99% !important; }
+
+.cp_cff_minimalist #fbuilder input[type="date"]:focus,
+.cp_cff_minimalist #fbuilder input[type="datetime"]:focus,
+.cp_cff_minimalist #fbuilder input[type="search"]:focus,
+.cp_cff_minimalist #fbuilder input[type="time"]:focus,
+.cp_cff_minimalist #fbuilder input[type="url"]:focus,
+.cp_cff_minimalist #fbuilder input[type="email"]:focus,
+.cp_cff_minimalist #fbuilder input[type="text"]:focus,
+.cp_cff_minimalist #fbuilder input[type="number"]:focus,
+.cp_cff_minimalist #fbuilder input[type="password"]:focus,
+.cp_cff_minimalist #fbuilder textarea:focus,
+.cp_cff_minimalist #fbuilder select:focus {
+  color: #000 !important; }
+
+.ui-datepicker .ui-datepicker-prev:after,
+.ui-datepicker .ui-datepicker-next:after {
+  display: none; }
+
+/* castomization */
+#fbuilder .fields.col_gap {
+  padding: 0;
+  padding-right: 50px; }
+
+#fbuilder .cff-checkbox-field input[type="checkbox"] + span {
+  padding-left: 34px;
+  position: relative; }
+
+#fbuilder .cff-checkbox-field input[type="checkbox"] {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 0; }
+
+#fbuilder .cff-checkbox-field input[type="checkbox"] + span:before {
+  content: '';
+  font-family: "fontello";
+  font-size: 1.3em;
+  display: block;
+  text-align: center;
+  border: 3px solid #eee;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: rem(20px);
+  height: rem(20px);
+  line-height: rem(20px);
+  -webkit-transition: .35s;
+  -o-transition: .35s;
+  transition: .35s; }
+
+#fbuilder .cff-checkbox-field input[type="checkbox"]:checked + span:before {
+  border-width: 7px; }
+
+#fbuilder .fields.cff-dropdown-field .dfield:before {
+  content: '';
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  right: rem(25px);
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  height: 0;
+  width: 0;
+  border: 5px solid transparent;
+  border-top-color: #eee;
+  border-bottom-width: 0; }
+
+#fbuilder .cff-radiobutton-field input[type="radio"] + span {
+  padding-left: 34px;
+  position: relative;
+  -webkit-transition: 0.4s;
+  -o-transition: 0.4s;
+  transition: 0.4s; }
+
+#fbuilder .cff-radiobutton-field input[type="radio"] {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  opacity: 0; }
+
+#fbuilder .cff-radiobutton-field input[type="radio"] + span:before {
+  content: '';
+  font-family: "fontello";
+  font-size: 1.3em;
+  display: block;
+  text-align: center;
+  border: 3px solid #eee;
+  position: absolute;
+  z-index: 1;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+  left: 0;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+  width: rem(20px);
+  height: rem(20px);
+  line-height: rem(20px);
+  -webkit-transition: .35s;
+  -o-transition: .35s;
+  transition: .35s;
+  border-radius: 50%; }
+
+#fbuilder .cff-radiobutton-field input[type="radio"]:checked + span:before {
+  border-width: 7px; }
+
+#fbuilder .fields_form_title {
+  font-size: rem(20px);
+  line-height: rem(33px);
+  font-weight: 800;
+  margin-bottom: rem(35px); }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .fields {
+  padding: 0; }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .pbreak > .cff-container-field {
+  margin-bottom: rem(45px); }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .fform h2,
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .fform h1 {
+  margin-bottom: rem(57px); }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .fform h2:empty,
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .fform h1:empty {
+  margin: 0; }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .cff-text-field label + .dfield,
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .cff-dropdown-field label + .dfield,
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .cff-number-field label + .dfield {
+  margin-top: rem(4px); }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .fields.cff-text-field + .fields.cff-dropdown-field {
+  margin-top: rem(20px); }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .col_gap {
+  padding-right: rem(40px); }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .cff-checkbox-field label + .dfield {
+  margin-top: rem(6px); }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .cff-checkbox-field label + .dfield div {
+  margin-bottom: rem(24px); }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .flex_table > div {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex; }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .flex_table > div .flex_col {
+  margin-right: rem(30px);
+  -webkit-box-flex: 1;
+  -ms-flex: 1 auto;
+  flex: 1 auto; }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .flex_table > div .flex_col:nth-last-of-type(1) {
+  margin-right: 0; }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .flex_table > div .flex_col.col_4 .cff-text-field {
+  display: inline-block;
+  width: calc(50% - 5px); }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .flex_table > div .flex_col.col_1 {
+  max-width: 341px; }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .flex_table > div .flex_col.col_2 {
+  max-width: 105px; }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .flex_table > div .flex_col.col_3 {
+  max-width: 195px; }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .flex_table > div .flex_col.col_4 {
+  max-width: 217px; }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .flex_table > div .flex_col.col_5 {
+  max-width: 250px; }
+
+[id*="cp_calculatedfieldsf"] input ~ #fbuilder .flex_col.col_4 .flex_col_td .cff-text-field:first-child {
+  margin-right: 10px; }

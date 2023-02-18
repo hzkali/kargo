@@ -1,0 +1,34 @@
+@mixin blog_styles_classic--xl() {
+	/* Blog layout: Classic */
+	.post_layout_classic .post_content {
+		font-size:1em;
+	}
+	.post_layout_classic_3 .post_title {
+		font-size: 22px;
+	}
+}
+
+@mixin blog_styles_classic--lg() {
+	.blog_style_classic_2 .comments_pagination,
+	.blog_style_classic_3 .comments_pagination,  
+	.blog_style_classic_2 .nav-links,
+	.blog_style_classic_3 .nav-links, 
+	.blog_style_classic_2 .page_links,
+	.blog_style_classic_3 .page_links {
+		margin-top: 1em;
+	}
+}
+
+@mixin blog_styles_classic--md() {
+	/* Blog layout: Classic */
+	.post_layout_classic.format-audio .post_featured.with_thumb .post_audio {
+		bottom: 1em;
+	}
+	.post_layout_classic_2 .post_featured, .post_layout_classic_3 .post_featured,
+	.post_layout_classic_3 .post_featured, .post_layout_classic_3 .post_featured {
+		margin-bottom: 1.0em;
+	}
+	.blog_style_classic_3 .column-1_3 {
+		width: 50%;
+	}
+}
